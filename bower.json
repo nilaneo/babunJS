@@ -1,0 +1,17 @@
+{
+  "name": "UWC",
+  "version": "0.0.1",
+  "authors": [
+    "Nila <shlikhtenkoneonila@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.0"
+  }
+}
