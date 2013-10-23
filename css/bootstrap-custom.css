@@ -1,0 +1,14 @@
+#header {
+	width: 100%;
+	height: 590px;
+	background-image: url(../img/banner.jpg);
+	background-size: cover;
+}
+
+.row {
+	margin: 0 !important;
+}
+
+.wrapper > .col-lg-12 {
+	padding: 0 !important;
+}
