@@ -1,3 +1,15 @@
+.row {
+	margin: 0;
+}
+
+.row > .col-lg-12 {
+	padding: 0;
+}
+
+/*===============================================================================
+* HEADER
+*================================================================================*/
+
 #header {
 	width: 100%;
 	height: 590px;
@@ -5,10 +17,72 @@
 	background-size: cover;
 }
 
-.row {
-	margin: 0 !important;
+/* Navigation
+*================================================================================*/
+
+.row-nav {
+	height: 90px;
+	background-color: rgba(256, 256, 256, .9);
 }
 
-.wrapper > .col-lg-12 {
-	padding: 0 !important;
+.navigation {
+	height: 100%;
 }
+
+.navbar {
+	height: 100%;
+}
+
+.navbar-default {
+	background-color: transparent;
+	border: none;
+}
+
+.logo {
+    display: inline-block;
+	width: 130px;
+    height: 52px;
+    margin-top: 20px;
+    text-indent: -9999px;
+    background: url(../img/logo.png) no-repeat;
+}
+
+.navbar-nav {
+	margin-top: 20px;
+}
+
+/*.navbar-collapse {
+	padding-right: 0;
+}*/
+
+.navbar-nav a {
+	color: #454545;
+	font: 17px "Segoe UI", "Arial", sans-serif;
+}
+
+.navbar-nav li:last-child a {
+	top: 12px;
+	width: 87px;
+	height: 27px;
+	padding: 2px 0 0 !important;
+	padding-top: 2px;
+	padding-top: 7px;
+	border-radius: 2px;
+	background-color: #de6d6e;
+	color: #fff;
+	text-align: center;
+}
+
+.navbar-nav li:last-child a:hover,
+.navbar-nav li:last-child a:focus  {
+	background-color: #c96364;
+	color: #fff;
+}
+
+.glyphicon-user {
+	margin-right: 5px;
+}
+
+
+
+
