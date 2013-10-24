@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "AlteHaasGroteskBold";
+    src: url("../fonts/AlteHaasGroteskBold.ttf");
+}
+
 .row {
 	margin: 0;
 }
@@ -11,6 +16,7 @@
 *================================================================================*/
 
 #header {
+	position: relative;
 	width: 100%;
 	height: 590px;
 	background-image: url(../img/banner.jpg);
@@ -56,18 +62,17 @@
 }*/
 
 .navbar-nav a {
+	top: 12px;
+	margin-right: 40px;
 	color: #454545;
 	font: 17px "Segoe UI", "Arial", sans-serif;
 }
 
 .navbar-nav li:last-child a {
-	top: 12px;
 	width: 87px;
 	height: 27px;
-	padding: 2px 0 0 !important;
-	padding-top: 2px;
-	padding-top: 7px;
 	border-radius: 2px;
+	margin-right: 0;
 	background-color: #de6d6e;
 	color: #fff;
 	text-align: center;
@@ -79,10 +84,134 @@
 	color: #fff;
 }
 
-.glyphicon-user {
-	margin-right: 5px;
+.navbar-nav > li > a {
+	padding: 2px 0;
 }
 
+.glyphicon-user {
+	margin-right: 5px;
+	font-size: 13px;
+}
 
+.banner-text {
+	position: absolute;
+	left: 50%;
+	bottom: 86px;
+	width: 706px;
+	height: 280px;
+	margin-left: -353px;
+	text-align: center;
+	box-sizing: border-box;
+}
 
+.title-banner,
+.subtitle-banner {
+	margin: 0;
+	color: #fff;
+	text-align: center;
+}
 
+.title-banner {
+	margin-top: 20px;
+	font: 70px "AlteHaasGroteskBold", sans-serif;
+	text-transform: uppercase;
+	text-shadow: 0 0 13px rgba(0, 0, 0, .22);
+}
+
+.subtitle-banner {
+	font: 25px "Arial", sans-serif;
+	font-weight: lighter;
+}
+
+/*===============================================================================
+* MAIN
+*================================================================================*/
+
+.greeting {
+	padding-right: 50px;
+	text-align: center;
+}
+
+.greeting p {
+	color: #636363;
+	font-size: 17px;
+}
+
+.title-big {
+	margin: 64px 0 22px;
+	color: #404040;
+	font-size: 35px;
+}
+
+.row-circles {
+	margin-bottom: 50px;
+}
+
+.circle {
+	display: inline-block;
+	width: 180px;
+	height: 180px;
+	border-radius: 50%;
+	margin: 80px 78px  0 0;
+	color: #fff;
+	font-size: 17px;
+	text-align: center;
+}
+
+.circle-tickets {
+	background-color: #4eb9f4;
+}
+
+.circle-camera {
+	background-color: #6fc125;
+}
+
+.circle-beer {
+	background-color: #ff5649;
+}
+
+.circle-devices {
+	margin-right: 0;
+	background-color: #e48f23;
+}
+
+.icon {
+	display: block;
+	margin: 0 auto 8px;
+}
+
+.icon-tickets {
+	width: 80px;
+	height: 82px;
+	margin-top: 35px;
+	background: url(../img/tickets.png) no-repeat;
+}
+
+.icon-camera {
+	width: 80px;
+	height: 70px;
+	margin-top: 54px;
+	background: url(../img/camera.png) no-repeat;
+}
+
+.icon-beer {
+	width: 80px;
+	height: 70px;
+	margin-top: 54px;
+	background: url(../img/beer.png) no-repeat;
+}
+
+.icon-devices {
+	width: 76px;
+	height: 76px;
+	margin-top: 48px;
+	background: url(../img/devices.png) no-repeat;
+}
+
+.row-media {
+	background: url(../img/line-shadow.png) repeat-x;
+}
+
+.media {
+	padding: 44px 0 36px 28px;
+}
