@@ -3,12 +3,21 @@
     src: url("../fonts/AlteHaasGroteskBold.ttf");
 }
 
+html,
+body {
+	background-color: #fff;
+}
+
 .row {
 	margin: 0;
 }
 
 .row > .col-lg-12 {
 	padding: 0;
+}
+
+a:focus {
+  outline: none;
 }
 
 /*===============================================================================
@@ -175,7 +184,7 @@
 	background-color: #e48f23;
 }
 
-.icon {
+.icon-big {
 	display: block;
 	margin: 0 auto 8px;
 }
@@ -215,3 +224,115 @@
 .media {
 	padding: 44px 0 36px 28px;
 }
+
+.media:last-child {
+	margin-bottom: 80px;
+}
+
+.media > .pull-left {
+    margin-right: 26px;
+}
+
+.media-heading {
+	color: #404040;
+	font-size: 27px;
+}
+
+.media-body {
+	color: #8b8b8b;
+	font-size: 15px;
+	text-align: justify;
+	word-wrap: break-word;
+}
+
+/*===============================================================================
+* FOOTER
+*================================================================================*/
+
+#footer {
+	height: 260px;
+	background: url(../img/footer-bg.jpg); 
+}
+
+.footer-info {
+	padding: 36px 0 0 12px;
+}
+
+.title-footer {
+	margin-bottom: 18px;
+	color: #aeaeae;
+	font-size: 21px;
+}
+
+.list-unstyled a,
+.copyright,
+.copyright a
+ {
+	color: #8b8b8b;
+	font-size: 15px;
+}
+
+.social {
+	width: 280px;
+	height: 100px;
+	margin-top: 40px;
+}
+
+.list-inline {
+	margin-bottom: 20px;
+}
+
+.list-inline li {
+	padding: 0;
+	margin-right: 20px;
+}
+
+.list-inline li:last-child {
+	margin-right: 0;
+}
+
+.list-inline li a {
+	display: inline-block;
+	width: 52px;
+	height: 52px;
+	border-radius: 50%;
+	background-color: #696b6a;
+}
+
+.list-inline li a:hover {
+	background-color: #aeaeae;
+}
+
+.icon-social {
+	display: block;
+	margin: 0 auto;
+}
+
+.icon-twitter {
+	width: 29px;
+	height: 24px;
+	margin-top: 14px;
+	background: url(../img/twitter.png) no-repeat;
+}
+
+.icon-facebook {
+	width: 13px;
+	height: 28px;
+	margin-top: 12px;
+	background: url(../img/facebook.png) no-repeat;
+}
+
+.icon-branch {
+	width: 29px;
+	height: 27px;
+	margin-top: 12px;
+	background: url(../img/branch.png) no-repeat;
+}
+
+.icon-globe {
+	width: 33px;
+	height: 33px;
+	margin-top: 10px;
+	background: url(../img/globe.png) no-repeat;
+}
+
