@@ -53,7 +53,7 @@ a:focus {
 	border: none;
 }
 
-.logo {
+.navbar-brand {
     display: inline-block;
 	width: 130px;
     height: 52px;
@@ -65,10 +65,6 @@ a:focus {
 .navbar-nav {
 	margin-top: 20px;
 }
-
-/*.navbar-collapse {
-	padding-right: 0;
-}*/
 
 .navbar-nav a {
 	top: 12px;
@@ -102,6 +98,9 @@ a:focus {
 	font-size: 13px;
 }
 
+/* Banner
+*================================================================================*/
+
 .banner-text {
 	position: absolute;
 	left: 50%;
@@ -114,10 +113,13 @@ a:focus {
 }
 
 .title-banner,
-.subtitle-banner {
+.subtitle-banner,
+.subtitle-banner a,
+.subtitle-banner a:hover {
 	margin: 0;
 	color: #fff;
 	text-align: center;
+	/*text-decoration: none;*/
 }
 
 .title-banner {
@@ -136,6 +138,9 @@ a:focus {
 * MAIN
 *================================================================================*/
 
+/* Greeting
+*================================================================================*/
+
 .greeting {
 	padding-right: 50px;
 	text-align: center;
@@ -152,8 +157,11 @@ a:focus {
 	font-size: 35px;
 }
 
+/* Circles
+*================================================================================*/
+
 .row-circles {
-	margin-bottom: 50px;
+	margin: 80px 0 50px;
 }
 
 .circle {
@@ -161,7 +169,7 @@ a:focus {
 	width: 180px;
 	height: 180px;
 	border-radius: 50%;
-	margin: 80px 78px  0 0;
+	margin-right: 49px;
 	color: #fff;
 	font-size: 17px;
 	text-align: center;
@@ -216,6 +224,9 @@ a:focus {
 	margin-top: 48px;
 	background: url(../img/devices.png) no-repeat;
 }
+
+/* Media
+*================================================================================*/
 
 .row-media {
 	background: url(../img/line-shadow.png) repeat-x;
@@ -272,12 +283,6 @@ a:focus {
 	font-size: 15px;
 }
 
-.social {
-	width: 280px;
-	height: 100px;
-	margin-top: 40px;
-}
-
 .list-inline {
 	margin-bottom: 20px;
 }
@@ -301,6 +306,12 @@ a:focus {
 
 .list-inline li a:hover {
 	background-color: #aeaeae;
+}
+
+.social {
+	width: 280px;
+	height: 100px;
+	margin-top: 40px;
 }
 
 .icon-social {
@@ -335,4 +346,3 @@ a:focus {
 	margin-top: 10px;
 	background: url(../img/globe.png) no-repeat;
 }
-
