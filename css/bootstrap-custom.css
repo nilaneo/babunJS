@@ -212,18 +212,16 @@ a:focus {
 
 .main-wrapper {
 	background: url(../img/line-shadow.png) repeat-x;
+	margin-bottom: 80px;
 }
 
 .media {
 	padding: 44px 0 36px 28px;
 }
 
-.media:last-child {
-	margin-bottom: 80px;
-}
-
-.media > .pull-left {
-    margin-right: 26px;
+.media-object {
+	float: left;
+	margin-right: 20px;
 }
 
 .media-heading {
@@ -339,7 +337,7 @@ a:focus {
   }
 }
 
-@media (max-width: 430px) {
+@media (max-width: 480px) {
 	.banner-wrapper {
 		padding: 70px 0 20px;
 	}
@@ -354,5 +352,14 @@ a:focus {
 
   .col-circle {
   	width: 100%;
+  }
+
+  .media-object {
+  	float: none;
+  	margin: 0 auto 20px;
+  }
+
+  .media-heading {
+  	text-align: center;
   }
 }
