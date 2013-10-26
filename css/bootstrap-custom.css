@@ -8,13 +8,13 @@ body {
 	background-color: #fff;
 }
 
-.row {
+/*.row {
 	margin: 0;
 }
 
 .row > .col-lg-12 {
 	padding: 0;
-}
+}*/
 
 a:focus {
   outline: none;
@@ -27,7 +27,6 @@ a:focus {
 #header {
 	position: relative;
 	width: 100%;
-	height: 590px;
 	background-image: url(../img/banner.jpg);
 	background-size: cover;
 }
@@ -35,17 +34,12 @@ a:focus {
 /* Navigation
 *================================================================================*/
 
-.row-nav {
-	height: 90px;
+.navigation-wrapper {
 	background-color: rgba(256, 256, 256, .9);
 }
 
-.navigation {
-	height: 100%;
-}
-
 .navbar {
-	height: 100%;
+	margin-bottom: 18px;
 }
 
 .navbar-default {
@@ -55,7 +49,7 @@ a:focus {
 
 .navbar-brand {
     display: inline-block;
-	width: 130px;
+		width: 130px;
     height: 52px;
     margin-top: 20px;
     text-indent: -9999px;
@@ -63,19 +57,17 @@ a:focus {
 }
 
 .navbar-nav {
-	margin-top: 20px;
+	margin-top: 35px;
 }
 
-.navbar-nav a {
-	top: 12px;
-	margin-right: 40px;
+.navbar-nav > li > a {
+	padding: 3px 14px;
+	margin-right: 27px;
 	color: #454545;
 	font: 17px "Segoe UI", "Arial", sans-serif;
 }
 
 .navbar-nav li:last-child a {
-	width: 87px;
-	height: 27px;
 	border-radius: 2px;
 	margin-right: 0;
 	background-color: #de6d6e;
@@ -89,10 +81,6 @@ a:focus {
 	color: #fff;
 }
 
-.navbar-nav > li > a {
-	padding: 2px 0;
-}
-
 .glyphicon-user {
 	margin-right: 5px;
 	font-size: 13px;
@@ -101,15 +89,9 @@ a:focus {
 /* Banner
 *================================================================================*/
 
-.banner-text {
-	position: absolute;
-	left: 50%;
-	bottom: 86px;
-	width: 706px;
-	height: 280px;
-	margin-left: -353px;
+.banner-wrapper {
+	padding: 140px 0 80px;
 	text-align: center;
-	box-sizing: border-box;
 }
 
 .title-banner,
@@ -169,7 +151,6 @@ a:focus {
 	width: 180px;
 	height: 180px;
 	border-radius: 50%;
-	margin-right: 49px;
 	color: #fff;
 	font-size: 17px;
 	text-align: center;
@@ -228,7 +209,7 @@ a:focus {
 /* Media
 *================================================================================*/
 
-.row-media {
+.main-wrapper {
 	background: url(../img/line-shadow.png) repeat-x;
 }
 
@@ -262,7 +243,7 @@ a:focus {
 
 #footer {
 	height: 260px;
-	background: url(../img/footer-bg.jpg); 
+	background: url(../img/footer-bg.jpg);
 }
 
 .footer-info {
