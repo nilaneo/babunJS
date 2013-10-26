@@ -241,18 +241,18 @@ a:focus {
 *================================================================================*/
 
 #footer {
-	height: 260px;
+	padding: 36px 0 20px;
 	background: url(../img/footer-bg.jpg);
-}
-
-.footer-info {
-	padding: 36px 0 0 12px;
 }
 
 .title-footer {
 	margin-bottom: 18px;
 	color: #aeaeae;
 	font-size: 21px;
+}
+
+.submenus-row {
+	padding-left: 32px;
 }
 
 .list-unstyled a,
@@ -269,7 +269,7 @@ a:focus {
 
 .list-inline li {
 	padding: 0;
-	margin-right: 20px;
+	margin-right: 19px;
 }
 
 .list-inline li:last-child {
@@ -289,8 +289,6 @@ a:focus {
 }
 
 .social {
-	width: 280px;
-	height: 100px;
 	margin-top: 40px;
 }
 
@@ -337,7 +335,20 @@ a:focus {
   }
 }
 
+@media (max-width: 991px) {
+	#footer {
+		text-align: center;
+	}
+
+	.submenus-row {
+		padding-left: 0;
+	}
+}
+
 @media (max-width: 480px) {
+	.media {
+		padding-left: 0;
+	}
 	.banner-wrapper {
 		padding: 70px 0 20px;
 	}
