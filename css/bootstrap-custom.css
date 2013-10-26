@@ -58,6 +58,7 @@ a:focus {
 }
 
 .navbar-nav > li > a {
+	display: inline-block;
 	padding: 3px 14px;
 	margin-right: 27px;
 	color: #454545;
@@ -76,6 +77,10 @@ a:focus {
 .navbar-nav li:last-child a:focus  {
 	background-color: #c96364;
 	color: #fff;
+}
+
+.navbar-toggle {
+	margin-top: 25px;
 }
 
 .glyphicon-user {
