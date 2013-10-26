@@ -147,66 +147,81 @@ a:focus {
 }
 
 .circle {
-	display: inline-block;
-	margin-top: 30px;
+	display: block;
 	width: 180px;
 	height: 180px;
+	margin: 30px auto 0;
 	border-radius: 50%;
 	color: #fff;
 	font-size: 17px;
 	text-align: center;
+	background: url(../img/circles-sprite.png) 0 no-repeat;
 }
 
 .circle-tickets {
-	background-color: #4eb9f4;
+	background-color: rgb(78, 185, 244);
+	background-position: 0 0;
 }
 
 .circle-camera {
-	background-color: #6fc125;
+	background-color: rgb(111, 193, 37);
+	background-position: -180px 0;
 }
 
 .circle-beer {
-	background-color: #ff5649;
+	background-color: rgb(255, 86, 73);
+	background-position: -360px 0;
 }
 
 .circle-devices {
-	margin-right: 0;
 	background-color: #e48f23;
+	background-position: -540px 0;
 }
 
-.icon-big {
-	display: block;
-	margin: 0 auto 8px;
+.circle-title {
+	padding-top: 135px;
+
 }
 
-.icon-tickets {
-	width: 80px;
-	height: 82px;
-	margin-top: 35px;
-	background: url(../img/tickets.png) no-repeat;
+.circle-tickets .circle-text {
+	background-color: rgba(78, 185, 244, .8);
 }
 
-.icon-camera {
-	width: 80px;
-	height: 70px;
-	margin-top: 54px;
-	background: url(../img/camera.png) no-repeat;
+.circle-camera .circle-text {
+	background-color: rgba(111, 193, 37, .8);
 }
 
-.icon-beer {
-	width: 80px;
-	height: 70px;
-	margin-top: 54px;
-	background: url(../img/beer.png) no-repeat;
+.circle-beer .circle-text {
+	background-color: rgba(255, 86, 73, .8);
 }
 
-.icon-devices {
-	width: 76px;
-	height: 76px;
-	margin-top: 48px;
-	background: url(../img/devices.png) no-repeat;
+.circle-devices .circle-text {
+	background-color: rgba(228, 143, 35, .8);
 }
 
+.circle-text {
+	position: relative;
+	display: table-cell;
+	top: -164px;
+	left: 0;
+	width: 180px;
+	height: 180px;
+	margin: 0;
+	padding: 0 25px;
+	border-radius: 50%;
+	font-size: 12px;
+	vertical-align: middle;
+	opacity: 0;
+	transition: opacity .3s;
+}
+
+.circle:hover .circle-text {
+	opacity: 1;
+}
+.circle, .circle:hover, .circle:focus {
+	color: #fff;
+	text-decoration: none;
+}
 /* Media
 *================================================================================*/
 
