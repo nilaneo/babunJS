@@ -147,6 +147,7 @@ a:focus {
 }
 
 .circle {
+	position: relative;
 	display: block;
 	width: 180px;
 	height: 180px;
@@ -200,19 +201,18 @@ a:focus {
 }
 
 .circle-text {
-	position: relative;
-	display: table-cell;
-	top: -164px;
+	position: absolute;
+	top: 0;
 	left: 0;
 	width: 180px;
 	height: 180px;
 	margin: 0;
-	padding: 0 25px;
+	padding: 42px 25px;
 	border-radius: 50%;
 	font-size: 12px;
 	vertical-align: middle;
 	opacity: 0;
-	transition: opacity .3s;
+	transition: all .3s ease 0s;
 }
 
 .circle:hover .circle-text {
